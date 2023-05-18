@@ -1,0 +1,102 @@
+\documentclass[a4paper]{article}
+
+% Pacotes adicionais
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{float}
+
+% Configurações de página
+\pagestyle{empty}
+\setlength{\parindent}{1cm}
+\linespread{1}
+
+% Configurações de fonte
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries\uppercase}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+% Início do documento
+\begin{document}
+	
+	% Cabeçalho
+	\begin{center}
+		\includegraphics[width=\textwidth]{cabecalho}
+	\end{center}
+	
+	% Título
+	\section*{\centering TÍTULO DO TRABALHO\textsuperscript{1}}
+	\textsuperscript{1} Chamada de identificação (se necessário)
+	
+	% Autores
+	\begin{center}
+		\large
+		Autor 1\textsuperscript{2}, Autor 2\textsuperscript{3}, Autor 3\textsuperscript{4}
+	\end{center}
+	
+	% Identificações dos autores
+	\begin{center}
+		\footnotesize
+		\textsuperscript{2} Engo Agrônomo, Prof. Adjunto, Depto. de Engenharia Rural, Faculdade de Ciências Agronômicas, UNESP, Botucatu - SP, Fone: (0XX14) 3811.7165, dhrip@fca.unesp.br \\
+		\textsuperscript{3} Engo Agrícola, Prof. Doutor, Depto. de Engenharia Rural, FCA/UNESP, Botucatu - SP \\
+		\textsuperscript{4} Outra identificação do autor 3
+	\end{center}
+	
+	% Identificação do evento
+	\begin{center}
+		Apresentado no \\
+		LII Congresso Brasileiro de Engenharia Agrícola - CONBEA 2023 \\
+		18 a 21 de outubro de 2023 – Ribeirão Preto - SP, Brasil
+	\end{center}
+	
+	% Resumo
+	\section*{RESUMO}
+	O texto do resumo deve ser claro, sucinto e explicar os objetivos, procedimentos, resultados e conclusões do trabalho, com no máximo 14 linhas.
+	
+	\subsection*{Palavras-Chave}
+	Palavra-chave 1; Palavra-chave 2; Palavra-chave 3
+	
+	% Título em Inglês
+	\section*{TÍTULO EM INGLÊS}
+	English Title
+	
+	% Abstract
+	\section*{ABSTRACT}
+	The abstract text should provide a clear and concise summary of the objectives, procedures, results, and conclusions of the work, within a maximum of 14 lines.
+	
+	\subsection*{Keywords}
+	Keyword 1; Keyword 2; Keyword 3
+	
+	% Introdução
+	\section{INTRODUÇÃO}
+	A introdução deve apresentar de forma concisa e clara o problema abordado, a justificativa e os objetivos do trabalho, utilizando no máximo 40 linhas.
+	
+	% Material e Métodos
+	\section{MATERIAL E MÉTODOS}
+	Descreva os materiais utilizados, a caracterização da área experimental (se aplicável) e os métodos adotados, referenciando-se apropriadamente quando forem métodos consagrados na literatura.
+	
+	% Resultados e Discussão
+	\section{RESULTADOS E DISCUSSÃO}
+	Apresente os resultados e discuta-os, confrontando-os com a literatura. Utilize ilustrações, gráficos e tabelas de forma clara e concisa, numerando-os de acordo.
+	
+	% Conclusões
+	\section{CONCLUSÕES}
+	Apresente as conclusões do trabalho com base nos resultados obtidos, evitando repetições e relacionando-os com os objetivos estabelecidos.
+	
+	% Agradecimentos
+	\section*{AGRADECIMENTOS}
+	Texto dos agradecimentos (se houver).
+	
+	% Referências
+	\section*{REFERÊNCIAS}
+	\begin{enumerate}
+		\item Exemplo de referência.
+		\item Outro exemplo de referência.
+	\end{enumerate}
+	
+\end{document}
